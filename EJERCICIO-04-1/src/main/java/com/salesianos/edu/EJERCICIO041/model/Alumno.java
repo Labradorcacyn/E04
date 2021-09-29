@@ -1,4 +1,4 @@
-package com.salesianos.edu.EJERCICIO041;
+package com.salesianos.edu.EJERCICIO041.model;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -28,13 +28,11 @@ public class Alumno {
     @ManyToOne
     private Curso curso;
 
-    public Alumno(String nombre, String apellido1, String apellido2, String telefono, String email, Direccion direccion, Curso curso) {
+    public Alumno(String nombre, String apellido1, String apellido2, String telefono, String email) {
         this.nombre = nombre;
         this.apellido1 = apellido1;
         this.apellido2 = apellido2;
         this.telefono = telefono;
         this.email = email;
-        this.direccion = direccion;
-        this.curso = curso;
     }
 }

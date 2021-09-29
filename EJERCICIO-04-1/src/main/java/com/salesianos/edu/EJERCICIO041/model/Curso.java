@@ -1,4 +1,4 @@
-package com.salesianos.edu.EJERCICIO041;
+package com.salesianos.edu.EJERCICIO041.model;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
