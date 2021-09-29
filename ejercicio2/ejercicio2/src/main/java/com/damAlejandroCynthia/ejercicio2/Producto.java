@@ -18,6 +18,7 @@ public class Producto {
     private String nombre;
     private int desc;
     private double pvp;
+    @ElementCollection // Sirve para crear una nueva tabla que la vincula con la tabla de Producto
     private List<String> imagenes;
     @ManyToOne
     private Categoria categoria;
