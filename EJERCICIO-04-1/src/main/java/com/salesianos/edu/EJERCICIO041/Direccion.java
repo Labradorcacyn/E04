@@ -18,5 +18,16 @@ public class Direccion {
     private String tipoVia;
     private String linea1;
     private String linea2;
+    private int cp;
+    private String poblacion;
+    private String provincia;
 
+    public Direccion(String tipoVia, String linea1, String linea2, int cp, String poblacion, String provincia) {
+        this.tipoVia = tipoVia;
+        this.linea1 = linea1;
+        this.linea2 = linea2;
+        this.cp = cp;
+        this.poblacion = poblacion;
+        this.provincia = provincia;
+    }
 }
