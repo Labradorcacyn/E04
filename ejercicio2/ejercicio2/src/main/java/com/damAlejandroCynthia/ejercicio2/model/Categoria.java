@@ -1,4 +1,4 @@
-package com.damAlejandroCynthia.ejercicio2;
+package com.damAlejandroCynthia.ejercicio2.model;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
